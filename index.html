@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watchHR - Professional Heart Rate Monitoring for Apple Watch</title>
+    <meta name="description" content="Professional heart rate monitoring app for Apple Watch with real-time tracking, workout analysis, and multi-language support.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <span class="logo-text" data-en="watchHR" data-zh="watchHR">watchHR</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link" data-en="Features" data-zh="功能特色">Features</a>
+                <a href="#screenshots" class="nav-link" data-en="Screenshots" data-zh="應用截圖">Screenshots</a>
+                <a href="#pricing" class="nav-link" data-en="Pricing" data-zh="價格方案">Pricing</a>
+                <a href="#privacy" class="nav-link" data-en="Privacy" data-zh="隱私政策">Privacy</a>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                </div>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-apple"></i>
+                    <span data-en="Apple Watch App" data-zh="Apple Watch 應用">Apple Watch App</span>
+                </div>
+                <h1 class="hero-title" data-en="Professional Heart Rate Monitoring" data-zh="專業級心率監測">
+                    Professional Heart Rate Monitoring
+                </h1>
+                <p class="hero-subtitle" data-en="Advanced heart rate tracking for Apple Watch with real-time monitoring, workout analysis, and intelligent alerts. Monitor your heart health with precision and ease." data-zh="專為 Apple Watch 設計的專業心率監測應用程式，提供實時追蹤、運動分析和智能警報。以精確和簡便的方式監測您的心臟健康。">
+                    Advanced heart rate tracking for Apple Watch with real-time monitoring, workout analysis, and intelligent alerts. Monitor your heart health with precision and ease.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label" data-en="Heart Rate Zones" data-zh="心率區間">Heart Rate Zones</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label" data-en="Alert Levels" data-zh="警報等級">Alert Levels</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label" data-en="Languages" data-zh="語言支援">Languages</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        <span data-en="Watch Demo" data-zh="觀看演示">Watch Demo</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="watch-showcase">
+                    <div class="watch-device">
+                        <div class="watch-screen active" data-screen="home">
+                            <img src="en_US/1_home.png" alt="Home Screen" class="screen-image">
+                        </div>
+                        <div class="watch-screen" data-screen="profile">
+                            <img src="en_US/2_profile_1.png" alt="Profile Screen" class="screen-image">
+                        </div>
+                        <div class="watch-screen" data-screen="year">
+                            <img src="en_US/3_profile_year.png" alt="Year View" class="screen-image">
+                        </div>
+                        <div class="watch-screen" data-screen="hr">
+                            <img src="en_US/4_profile_hr.png" alt="Heart Rate View" class="screen-image">
+                        </div>
+                        <div class="watch-screen" data-screen="zones">
+                            <img src="en_US/5_profile_viewzone.png" alt="Heart Rate Zones" class="screen-image">
+                        </div>
+                    </div>
+                    <div class="screen-indicators">
+                        <button class="indicator active" data-screen="home"></button>
+                        <button class="indicator" data-screen="profile"></button>
+                        <button class="indicator" data-screen="year"></button>
+                        <button class="indicator" data-screen="hr"></button>
+                        <button class="indicator" data-screen="zones"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Why Choose watchHR?" data-zh="為什麼選擇 watchHR？">Why Choose watchHR?</h2>
+                <p class="section-subtitle" data-en="Professional-grade heart rate monitoring with advanced features designed for health-conscious users." data-zh="專業級心率監測，專為注重健康的用戶設計的先進功能。">
+                    Professional-grade heart rate monitoring with advanced features designed for health-conscious users.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Real-time Monitoring" data-zh="實時監測">Real-time Monitoring</h3>
+                    <p class="feature-description" data-en="Continuous heart rate tracking with background operation support and high-precision data collection." data-zh="持續心率追蹤，支援背景運行和高精度數據採集。">
+                        Continuous heart rate tracking with background operation support and high-precision data collection.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Heart Rate Zones" data-zh="心率區間">Heart Rate Zones</h3>
+                    <p class="feature-description" data-en="Professional heart rate zone analysis with 5 zones including aerobic, anaerobic, and maximum heart rate zones." data-zh="專業心率區間分析，包含有氧、無氧和最大心率等5個區間。">
+                        Professional heart rate zone analysis with 5 zones including aerobic, anaerobic, and maximum heart rate zones.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Smart Alerts" data-zh="智能警報">Smart Alerts</h3>
+                    <p class="feature-description" data-en="Three-level alert system with customizable thresholds for high, low, and abnormal heart rates." data-zh="三級警報系統，可自訂高心率、低心率和異常心率的閾值。">
+                        Three-level alert system with customizable thresholds for high, low, and abnormal heart rates.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Multi-language" data-zh="多語言支援">Multi-language</h3>
+                    <p class="feature-description" data-en="Support for 10 languages with complete localization for English and Traditional Chinese." data-zh="支援10種語言，英文和繁體中文完整本地化。">
+                        Support for 10 languages with complete localization for English and Traditional Chinese.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="App Screenshots" data-zh="應用截圖">App Screenshots</h2>
+                <p class="section-subtitle" data-en="Explore the intuitive interface and powerful features of watchHR." data-zh="探索 watchHR 的直觀介面和強大功能。">
+                    Explore the intuitive interface and powerful features of watchHR.
+                </p>
+            </div>
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/1_home.png" alt="Home Screen" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Home Dashboard" data-zh="主頁儀表板">Home Dashboard</h4>
+                            <p data-en="Real-time heart rate display with zone indicators" data-zh="實時心率顯示與區間指示器">Real-time heart rate display with zone indicators</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/2_profile_1.png" alt="Profile View" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Profile Overview" data-zh="個人資料概覽">Profile Overview</h4>
+                            <p data-en="Personal health statistics and achievements" data-zh="個人健康統計和成就">Personal health statistics and achievements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/3_profile_year.png" alt="Year View" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Annual Statistics" data-zh="年度統計">Annual Statistics</h4>
+                            <p data-en="Yearly heart rate trends and workout summary" data-zh="年度心率趨勢和運動摘要">Yearly heart rate trends and workout summary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/4_profile_hr.png" alt="Heart Rate View" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Heart Rate Analysis" data-zh="心率分析">Heart Rate Analysis</h4>
+                            <p data-en="Detailed heart rate patterns and insights" data-zh="詳細心率模式和洞察">Detailed heart rate patterns and insights</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/5_profile_viewzone.png" alt="Heart Rate Zones" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Heart Rate Zones" data-zh="心率區間">Heart Rate Zones</h4>
+                            <p data-en="Professional zone analysis with 5 training zones" data-zh="專業區間分析，包含5個訓練區間">Professional zone analysis with 5 training zones</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/6_setting_high.png" alt="High Heart Rate Alert" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="High Heart Rate Alert" data-zh="高心率警報">High Heart Rate Alert</h4>
+                            <p data-en="Customizable high heart rate threshold settings" data-zh="可自訂的高心率閾值設定">Customizable high heart rate threshold settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/7_setting_low.png" alt="Low Heart Rate Alert" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Low Heart Rate Alert" data-zh="低心率警報">Low Heart Rate Alert</h4>
+                            <p data-en="Customizable low heart rate threshold settings" data-zh="可自訂的低心率閾值設定">Customizable low heart rate threshold settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/8_setting_abnormal.png" alt="Abnormal Heart Rate Alert" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Abnormal Heart Rate Alert" data-zh="異常心率警報">Abnormal Heart Rate Alert</h4>
+                            <p data-en="Smart detection of irregular heart rate patterns" data-zh="智能檢測不規則心率模式">Smart detection of irregular heart rate patterns</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/9_setting_abnormaladj.png" alt="Abnormal Heart Rate Adjustment" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Abnormal Heart Rate Adjustment" data-zh="異常心率調整">Abnormal Heart Rate Adjustment</h4>
+                            <p data-en="Fine-tune abnormal heart rate detection sensitivity" data-zh="微調異常心率檢測靈敏度">Fine-tune abnormal heart rate detection sensitivity</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <div class="screenshot-card">
+                        <img src="en_US/10_main_counting.png" alt="Main Counting" class="screenshot-image">
+                        <div class="screenshot-overlay">
+                            <h4 data-en="Workout Counter" data-zh="運動計數器">Workout Counter</h4>
+                            <p data-en="Real-time workout tracking with heart rate monitoring" data-zh="實時運動追蹤與心率監測">Real-time workout tracking with heart rate monitoring</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Simple & Transparent Pricing" data-zh="簡單透明的定價">Simple & Transparent Pricing</h2>
+                <p class="section-subtitle" data-en="One-time purchase, no subscriptions, no hidden fees." data-zh="一次買斷，無訂閱費用，無隱藏費用。">
+                    One-time purchase, no subscriptions, no hidden fees.
+                </p>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <div class="pricing-badge">
+                        <i class="fas fa-crown"></i>
+                        <span data-en="Professional" data-zh="專業版">Professional</span>
+                    </div>
+                    <h3 class="pricing-title" data-en="watchHR Professional" data-zh="watchHR 專業版">watchHR Professional</h3>
+                    <div class="price">
+                        <span class="currency" data-en="US$" data-zh="NT$">US$</span>
+                        <span class="amount" data-en="2" data-zh="69">2</span>
+                        <span class="period" data-en="One-time purchase" data-zh="一次買斷">One-time purchase</span>
+                    </div>
+                    <p class="pricing-description" data-en="Get all professional features with no recurring costs." data-zh="獲得所有專業功能，無重複費用。">
+                        Get all professional features with no recurring costs.
+                    </p>
+                </div>
+                <div class="pricing-features">
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="Real-time heart rate monitoring" data-zh="實時心率監測">Real-time heart rate monitoring</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="5 heart rate zones analysis" data-zh="5個心率區間分析">5 heart rate zones analysis</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="Three-level alert system" data-zh="三級警報系統">Three-level alert system</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="All workout types supported" data-zh="支援所有運動類型">All workout types supported</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="10 languages support" data-zh="支援10種語言">10 languages support</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check"></i>
+                        <span data-en="No subscription fees" data-zh="無訂閱費用">No subscription fees</span>
+                    </div>
+                </div>
+                <div class="pricing-cta">
+                    <p class="pricing-note" data-en="Available on the App Store" data-zh="App Store 上架中">Available on the App Store</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Your Privacy Matters" data-zh="您的隱私很重要">Your Privacy Matters</h2>
+                <p class="section-subtitle" data-en="We are committed to protecting your health data and personal information." data-zh="我們致力於保護您的健康數據和個人資訊。">
+                    We are committed to protecting your health data and personal information.
+                </p>
+            </div>
+            <div class="privacy-grid">
+                <div class="privacy-card">
+                    <div class="privacy-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 data-en="Local Data Storage" data-zh="本地數據儲存">Local Data Storage</h3>
+                    <p data-en="All your health data is stored locally on your device and never uploaded to external servers." data-zh="您的所有健康數據都儲存在本地設備上，絕不上傳到外部伺服器。">
+                        All your health data is stored locally on your device and never uploaded to external servers.
+                    </p>
+                </div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 data-en="No Personal Tracking" data-zh="無個人追蹤">No Personal Tracking</h3>
+                    <p data-en="We do not collect, track, or store any personal identification information." data-zh="我們不收集、追蹤或儲存任何個人身份識別資訊。">
+                        We do not collect, track, or store any personal identification information.
+                    </p>
+                </div>
+                <div class="privacy-card">
+                    <div class="privacy-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 data-en="Apple Standards" data-zh="Apple 標準">Apple Standards</h3>
+                    <p data-en="Compliant with Apple's privacy guidelines and HealthKit security standards." data-zh="符合 Apple 隱私指南和 HealthKit 安全標準。">
+                        Compliant with Apple's privacy guidelines and HealthKit security standards.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>watchHR</span>
+                    </div>
+                    <p data-en="Professional heart rate monitoring for Apple Watch. Monitor your heart health with precision and ease." data-zh="專為 Apple Watch 設計的專業心率監測。以精確和簡便的方式監測您的心臟健康。">
+                        Professional heart rate monitoring for Apple Watch. Monitor your heart health with precision and ease.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Product" data-zh="產品">Product</h4>
+                    <a href="#features" data-en="Features" data-zh="功能特色">Features</a>
+                    <a href="#screenshots" data-en="Screenshots" data-zh="應用截圖">Screenshots</a>
+                    <a href="#pricing" data-en="Pricing" data-zh="價格方案">Pricing</a>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Support" data-zh="支援">Support</h4>
+                    <a href="#privacy" data-en="Privacy Policy" data-zh="隱私政策">Privacy Policy</a>
+                    <a href="privacy.html" data-en="Terms of Service" data-zh="服務條款">Terms of Service</a>
+                    <a href="#contact" data-en="Contact" data-zh="聯絡我們">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Download" data-zh="下載">Download</h4>
+                    <a href="#download" class="download-link">
+                        <i class="fab fa-apple"></i>
+                        <span data-en="Download on App Store" data-zh="在 App Store 下載">Download on App Store</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 watchHR. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
