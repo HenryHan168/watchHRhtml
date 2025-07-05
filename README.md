@@ -46,7 +46,7 @@ watchHR 是一款專為 Apple Watch 設計的專業級心率監測應用程式�
 
 ## 定價方案
 
-- **watchHR Professional**：US$ 2 / NT$ 69（一次買斷）
+- **watchHR Professional**：US$ 1.99 / NT$ 60（一次買斷）
 - 包含所有專業功能
 - 無訂閱費用
 - 終身免費更新
